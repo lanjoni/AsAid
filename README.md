@@ -1,4 +1,4 @@
-<img src="imagens/asaidlogo.png" align="right" width="100">
+<img src="Imagens/asaidlogo.png" align="right" width="100">
 
 # AsAid (Assistance Aid)
 
