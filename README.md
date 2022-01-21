@@ -1,3 +1,5 @@
+<img src="imagens/asaidlogo.png" align="right" width="100">
+
 # AsAid (Assistance Aid)
 
 A satisfação e o bem-estar do cliente são dois fatores essenciais que devem ser buscados em uma empresa. Uma empresa que possui um contato flexível e direto com seus clientes, oferecendo um bom atendimento, possui tendência em se expandir cada vez mais no mercado, e um dos pontos que mais afetam esta relação é a questão do atendimento e suporte. O objetivo deste trabalho foi desenvolver um sistema computacional capaz de conseguir lidar diretamente com o suporte ao cliente, de maneira simples e funcional, buscando um melhor aproveitamento e desenvolvimento desta área que muitas vezes não é aprimorada. O AsAid, portanto, busca explorar o contato entre a empresa e o cliente, sendo um sistema capaz de organizar e controlar o acesso ao suporte em geral, de modo a facilitar toda a gestão empresarial relacionada com o suporte. De modo geral, as empresas que possuem um contato diferencial e aprimorado com seus clientes, tendem a obter uma vantagem competitiva sobre as demais, visto que, atualmente, um bom atendimento faz com que uma empresa se diferencie das outras.
