@@ -1,0 +1,276 @@
+body{
+    background-image: url(../img/imagem1.jpg);
+    background-attachment: fixed;
+}
+
+.white{
+    color: white;
+    text-shadow: 2px 2px black;
+    font-weight: bold;
+    font-size: 45px;
+
+}
+
+.digitar::after{
+    content: '|';
+    margin-left: 5px;
+    opacity: 1;
+    animation: pisca .7s infinite;
+}
+
+@keyframes pisca {
+    0%, 100%{
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+}
+
+.distancia{
+    position: relative;
+    top: 40%;
+    transform: translateY(-40%); 
+    z-index: 10;
+}
+
+.header-1{
+    float: left;
+    width: 100%;
+    background-color: #252323;
+    height: 100px;
+    opacity: 0.8;
+    position: relative;
+}
+
+.sistema{
+    margin: 0;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-bottom: 20px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 25px;
+    color:white;
+    padding-right: 0px;
+    margin-left: 360px;
+}
+
+.logo{
+    float: left;
+    width: 70%;
+}
+
+.img-logo{
+    width: 100px;
+    height: 100px;
+    margin-left: 30px;
+}
+
+#blue{
+    background-color: #1c6a82;
+    color: blue;
+    border-radius: 20px;
+    padding-top: 35px;
+    box-shadow: inset 0 0 1em #10416b, 0 0 1em #10416b;
+    z-index: 10;
+    padding-bottom: 2%;
+}
+
+#small{
+    color: white;
+    text-shadow: 2px 2px black;
+    font-weight: bold;
+    font-size: 45px;
+    text-align: center;
+
+}
+
+#small2{
+    color: white;
+    text-shadow: 2px 2px black;
+    font-weight: bold;
+    font-size: 25px;
+    padding-top: 55px;
+}
+
+#transpa{
+    opacity: 0.9;
+}
+
+#btn{
+    background-color: #10416b;
+    width: 200px;
+    margin-top: 15px;
+    display: inline-block;
+}
+
+#small3{
+    color: white;
+    text-shadow: 2px 2px black;
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+}
+
+.small4{
+    color: white;
+    text-shadow: 2px 2px black;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.box {
+    /* Choose the animation */
+    animation-name: movingBox;
+
+    /* The animation’s duration */
+    animation-duration: 1300ms;
+
+    /* The number of times we want
+        the animation to run */
+    animation-iteration-count: 1;
+
+    /* Causes the animation to reverse
+        on every odd iteration */
+    animation-direction: alternate;
+}
+
+@keyframes movingBox {
+    0% {
+        transform: translate(1200px, 0px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+#small5{
+    color: white;
+    text-shadow: 2px 2px black;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+/* @media only screen and (max-device-width: 900px) {
+    .menu { 
+        width:100%;
+    }
+} */
+
+.alinhab{
+    justify-content: center;
+    display: inline-block;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.black{
+    background-color: black;
+    width: 85%;
+    height: 60%;
+    position: absolute;
+    margin-left: -80%;
+    opacity: 0.7;
+    z-index: 0;
+    top: 50%;
+    transform: translateY(-50%);    
+    border-radius: 20px;
+}
+
+.box2{
+    /* Choose the animation */
+    animation-name: movingBox2;
+
+    /* The animation’s duration */
+    animation-duration: 1700ms;
+
+    /* The number of times we want
+        the animation to run */
+    animation-iteration-count: 1;
+
+    /* Causes the animation to reverse
+        on every odd iteration */
+    animation-direction: alternate;
+}
+
+
+@keyframes movingBox2 {
+    0% {
+        transform: translate(90%, -50%);
+    }
+
+    100% {
+        transform: translate(0%, -50%);
+    }
+}
+
+.espaco{
+    margin-top: 7%;
+}
+
+@media(max-width: 705px) {
+    .white {
+        font-size: 25px;
+    }
+
+    #small{
+        font-size: 25px;
+    }
+
+    #small2{
+        font-size: 15px;
+    }
+
+    #small3{
+        font-size: 20px;
+    }
+
+    .small4{
+        font-size: 10px;
+    }
+
+    #small5{
+        font-size: 15px;
+    }
+
+    .header-1{
+        height: 50px;
+    }
+
+    .img-logo{
+        height: 50px;
+        width: 50px;
+    }
+}
+
+.digitar{
+    /* Choose the animation */
+    animation-name: movingBox3;
+
+    /* The animation’s duration */
+    animation-duration: 1700ms;
+
+    /* The number of times we want
+        the animation to run */
+    animation-iteration-count: 1;
+
+    /* Causes the animation to reverse
+        on every odd iteration */
+    animation-direction: alternate;
+}
+
+@keyframes movingBox3 {
+    0% {
+        transform: translate(100%, 0%);
+    }
+
+    100% {
+        transform: translate(0%, 0%);
+    }
+}
