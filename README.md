@@ -26,6 +26,19 @@ Vale ressaltar que as possibilidades para o AsAid são diversas, variando de aco
 
 ## 
 
+### 📌 Introdução:<a name="introducao"></a>
+
+  Com o crescimento abrangente do setor de informática, o número de pessoas que utilizam computadores é cada vez maior. De acordo com o Estudo da Fundação Getúlio Vargas, em 2020, o Brasil tinha, em média, nove computadores a cada dez pessoas, o que implica no modo como a informática já faz parte do cotidiano da maior parte dos brasileiros. Sendo assim, há a necessidade de que haja uma organização por parte das empresas no quesito de assistência técnica, já que um cliente, quando busca adquirir um computador, ou então procura um local para reparos, espera por um local no qual haja uma melhor preparação e facilidade do setor de suporte para, assim, fazer com que tenha um bom atendimento, principalmente pela agilidade do processo. Deste modo, um software para auxílio e organização na parte de controle da assistência é essencial. A satisfação do cliente está totalmente ligada ao simples fato de ele receber seu produto na data correta e em perfeito estado. (GUIMARÃES, 2019).  
+
+  Na Figura 1, pode-se observar o gráfico que ilustra o avanço da porcentagem dos domicílios particulares com acesso à internet. 
+  
+Figura 1 - Gráfico do aumento do uso de computadores em domicílios particulares 
+
+
+ 
+
+Figura 1 - Gráfico do aumento do uso de computadores em domicílios particulares 
+
 Aqui estão todos os arquivos necessários para execução do AsAid, incluindo:
 - Java (Desktop);
 - PHP (com uso do Bootstrap, deixando o site responsivo);
